@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Konfigurator",
+        "link": "/catalog",
+        "desc": "Wybierz swój dom"
+    },
+    {
+        "title": "Producenci",
+        "link": "/companies",
+        "desc": "Zatrudnij najlepszych"
+    },
+    {
+        "title": "Popularne projekty",
+        "link": "/catalog",
+        "desc": "Wybierz swój dom"
+    },
+    {
+        "title": "Realizacje",
+        "link": "/catalog",
+        "desc": "Zobacz najlepsze"
+    },
+    {
+        "title": "Blog",
+        "link": "/blog/index",
+        "desc": "Poznaj ekspertów"
+    }
+]

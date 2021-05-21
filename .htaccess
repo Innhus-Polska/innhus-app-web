@@ -1,0 +1,5 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^innhus.kreatorzymarzen.pl/[nc]
+RewriteRule ^(.*)$ http://innhus.kreatorzymarzen.pl//$1 [r=301,nc]

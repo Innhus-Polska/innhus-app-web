@@ -1,1 +1,2 @@
-# innhus-mobile-app
+# innhus-web-app
+InnHus Web Application

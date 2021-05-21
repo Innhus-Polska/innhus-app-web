@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Zaloguj się na konto",
+        "link": "/login"
+    },
+    {
+        "name": "Jestem nowym klientem",
+        "link": "/register"
+    },
+    {
+        "name": "Kupuję bez rejestracji",
+        "link": "/catalog"
+    }
+]

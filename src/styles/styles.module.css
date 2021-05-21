@@ -1,0 +1,1101 @@
+*{
+    font-family: 'Poppins';
+}
+
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.topBlockContainer{
+    background-color: #719599;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins' !important;
+    font-size: 11px !important;
+    font-weight: 500;
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+
+.bgMain{
+    background-color: #719599;
+}
+
+.configuratorBlock{
+    background-color: #F2F2F2;
+}
+
+.h1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.h2{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.h4{
+    font-size: 16px;
+    font-family: 'Poppins';
+}
+
+.h5{
+    font-size: 13px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.selectCategory{
+    background-color: #EBEBEB !important;
+    border-radius: 10px !important;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.logomenu{
+    width: auto;
+    height: 50px;
+}
+
+.logotype{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    user-select: none;
+}
+
+.logoFooter{
+    width: 200px;
+    height: auto;
+}
+
+.badge{
+    margin-right: 15px;
+}
+
+.badge a{
+    background-color: #EFEFEF !important;
+    border-radius: 15px;
+}
+
+.badge span{
+    font-size: 9px;
+}
+
+.stretch{
+    width: 100%;
+    height: 343px;
+    object-fit: cover;
+}
+
+.menuButtonIcon{
+    background-color: #F5F5F5;
+    width: 39px;
+    height: 39px;
+    border-radius: 12px;
+}
+
+.menuItem{
+    display: flex;
+    flex-flow: column;
+    padding: 10px 20px;
+}
+
+.menuItemTitle{
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+}
+
+.menuItemDesc{
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 600;
+    color: #A1A1A1;
+    text-align: left;
+}
+
+.menuDesktopItems{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: white;
+}
+
+.topMenu{
+    height: 57px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.06);
+    border-radius: 29px;
+    display: flex;
+    flex-flow: row;
+    padding-top: 2px;
+    padding-right: 20px;
+    margin-right: 15px;
+}
+
+.topGo{
+    width: 42px;
+    height: 42px;
+    background-color: #709799;
+    border-radius: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.topBtnConfig{
+    background-color: #709799;
+    color: white;
+    height: 39px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    align-content: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.labelSearchBox{
+    font-size: 11px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+.btnSearching{
+    background-color: #EBEBEB;
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+.searchBox{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.selectCategory{
+    background-color: green !important;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    user-select: none;
+}
+
+.checkbox{
+  border: 1px solid #000;
+  border-radius: 4px;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+}
+
+.checkmarkOn{
+    transition: opacity 200ms linear;
+    opacity: 0;
+}
+
+.checkmarkOff{
+    transition: opacity 200ms linear;
+    opacity: 1;
+}
+
+.switchContainer{
+    border: 1px solid #000;
+    border-radius: 1000px;
+    width: 40px;
+    height: 20px;
+    padding: 2px;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.sectionTitle{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.productTitle{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 2px;
+}
+
+.productSubtitle{
+    font-size: 15px;
+    font-weight: 700;
+    color: #719599;
+    padding-bottom: 2px;
+}
+
+.productSubtitleUnder{
+    font-size: 13px;
+    font-weight: 700;
+    color: #D0D6CE;
+    padding-bottom: 2px;
+}
+
+.productOptions{
+    font-size: 13px;
+    font-weight: 500;
+    padding-bottom: 2px;
+    margin-left: 10px;
+}
+
+.btnFavourite{
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+}
+
+.btnProduct{
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    margin-left: 10px;
+}
+
+.input-range__slider{
+    background: #719599 !important;
+    border: 1px solid #719599 !important;
+}
+
+.searchBoxTop{
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+}
+
+.optionIcon{
+    background-color: #F6F6F6;
+    width: 35px;
+    height: 35px;
+    border-radius: 12px;
+    padding: 9px;
+}
+
+.productDescription{
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 25px;
+}
+
+.productText{
+    font-size: 13px;
+    font-weight: 500;
+    padding-top: 10px;
+    line-height: 1.65em;
+}
+
+.walk3d{
+    width: 100%;
+    height: 183px;
+    object-fit: cover;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.opinionResume{
+    background-color: #F2F2F2;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+.opinionResumeLabel{
+    font-size: 9px;
+    font-weight: 600;
+    color: #929292;
+    text-align: center;
+    width: 100%;
+}
+
+.userIcon{
+    width: 54px;
+    height: 54px;
+    background-color: gray;
+    border-radius: 100%;
+}
+
+.propertyIcon{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.companyIcon{
+    width: 96px;
+    height: 64px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.opinionUserName{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+.opinionUserDetails{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #929292;
+}
+
+.opinionUserDate{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: #929292;
+    text-align: right;
+}
+
+.opinionBottomLine{
+    width: 100%;
+    height: 1px;
+    background-color: #EBEBEB;
+}
+
+.likeRating{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.productData{
+    width: 100%;
+    height: 195px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.productListTitle{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+}
+
+.productListPrice{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #709799;
+}
+
+.productListDetails{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 500;
+    color: #929292;
+}
+
+.blogArticleTitle{
+    color: black;
+    font-size: 28px;
+    font-weight: 700;
+    align-content: flex-end;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    z-index: 99;
+    position: relative;
+    text-align: left;
+}
+
+.blogAuthor{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.blogDate{
+    width: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #709799;
+}
+
+.articleTag{
+    background-color: #ECECEC;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+    margin-right: 12px;
+}
+
+.blogHeadline{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.blogSubheader{
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.blogContent{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.blogSocialIcons{
+    width: 50px;
+    height: 50px;
+    background-color: #709799;
+    border-radius: 10px;
+}
+
+.blogPhotoCarousel{
+    width: 100%;
+    height: 177px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.imgLabel{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.sectionTitle{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.sectionHeader{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.faqPhotoSection{
+    width: 64px;
+    height: 64px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cookies div{
+    background-color: #EBEBEB !important;
+    margin-bottom: 50px !important;
+}
+
+.cookies h2{
+    color: black !important;
+    text-align: center !important;
+}
+
+.cookiesText{
+    font-size: 12px !important;
+    color: black !important;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cookiesButton{
+    background-color: #709799 !important;
+    color: white !important;
+    border: 0;
+    border-radius: 10px;
+}
+
+.cookiesTitle{
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cookiesReadMore{
+    color: black !important;
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.cookiesReadMore:hover{
+    background-color: none !important;
+}
+
+.notify{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.notifyUser{
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+    width: 75%;
+}
+
+.chatUser{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    width: 75%;
+}
+
+.notifyTime{
+    color: #709799;
+    font-size: 12px;
+    font-weight: 600;
+    width: 25%;
+    text-align: right;
+}
+
+.chatTime{
+    color: #709799;
+    font-size: 9px;
+    font-weight: 600;
+    width: 25%;
+    text-align: right;
+}
+
+.notifyText{
+    font-size: 12px;
+    color: #B7B7B7;
+    font-weight: 600;
+}
+
+.chatText{
+    font-size: 10px;
+    color: #B7B7B7;
+    font-weight: 700;
+}
+
+.breakNotify{
+    border-top: 1px solid rgba(0,0,0,0.15);
+    margin-top: 15px;
+}
+
+.breakChat{
+    border-top: 1px solid #ECECEC;
+    margin-top: 15px;
+}
+
+.chatSendIcon{
+    width: 39px;
+    height: 39px;
+    background-color: #EBEBEB;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.searchInput{
+    background-color: #EBEBEB;
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 12px;
+}
+
+.searchInput:focus ~ .filteringResults{
+    display: none;
+}
+
+.searchResult{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.searchResultCompanies{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    flex-flow: column;
+}
+
+.searchResultCompany{
+    color: black;
+}
+
+.searchResultCategory{
+    color: #719599;
+}
+
+.searchResultAddress{
+    color: #D0D6CE;
+}
+
+.filterIcon{
+    background-color: #709799;
+    border-radius: 12px;
+    width: 45px;
+    height: 45px;
+    padding: 11px;
+    margin-top: -6px;
+}
+
+.filteringResults{
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.checkboxField, .checkboxCatField{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.checkboxCatField{
+    height: 120px;
+}
+
+.checkboxCatImg{
+    height: 80px;
+}
+
+.checkboxIcon, .checkboxCategory{
+    display: flex;
+    flex: 1;
+    background-color: black;
+    align-self: stretch;
+    margin: 2px;
+    border-radius: 2px;
+}
+
+.checkboxField label, .checkboxCatField label{
+    font-size: 10px;
+}
+
+.offerListImg{
+   width: 100%;
+   height: 234px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.configurator{
+    background-color: #F2F2F2;
+}
+
+.productImage{
+    height: 378px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.configImage{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.configSectionInfo{
+    margin-top: -90px;
+    margin-bottom: 45px;
+}
+
+.configPagination, .configSectionTitle{
+    color: white;
+    text-align: center;
+}
+
+.configSectionTitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.configPagination{
+    width: 75px;
+    height: 30px;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background-color: rgba(255,255,255,0.25);
+    border-radius: 15px;
+    position: relative;
+}
+
+.configExplain{
+    color: #554E4A;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.configAboutSection{
+    background-color: white;
+    max-width: 303px;
+    border-radius: 10px;
+    padding: 45px 25px;
+    margin-top: -50px;
+}
+
+.configAboutSection h5{
+    font-size: 17.5px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.configAboutSection p{
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+.configAboutSection button{
+    background-color: white;
+    border: 1.5px solid #719599;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: #719599;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.inputRangeLabel{
+    font-size: 11px;
+    font-weight: 600;
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.inputCheckboxCarouselLabel, .inputCheckboxCarouselUnderLabel{
+    font-size: 11px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.inputCheckboxCarouselLabel{
+    color: black;
+}
+
+.inputCheckboxCarouselUnderLabel{
+    color: #B1B1B1;
+}
+
+.inputCheckboxCarousel{
+    background-color: #709799;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+    margin-right: 15px;
+}
+
+.inputCheckboxCarousel label span{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 5px;
+    text-align: center;
+    margin-left: -30px;
+}
+
+.checkboxCarousel{
+    position: relative;
+    display: flex;
+    flex: 1;
+    background-color: none;
+    align-self: start;
+}
+
+.loginMethod{
+    width: 100%;
+    height: 117px;
+    border-radius: 5px;
+    border: 1px solid #EBEBEB;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.loginMethodImg{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.loginMethodHeader{
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.loginAvatarImg{
+    width: 127px;
+    height: 127px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.loginMail{
+    background-color: #EBEBEB;
+    color: black;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 10px 5px;
+}
+
+.loginMailLabel{
+    color: #929292;
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.loginMailError{
+    color: red;
+    font-size: 9px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.loginOptions{
+    color: #709799;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: left;
+    width: 100%;
+}
+
+.userAvatar{
+    width: 51px;
+    height: 51px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.chatMenuAvaible{
+    font-size: 9px;
+    font-weight: 700;
+    color: #709799;
+    padding-top: -15px;
+}
+
+.chatMessage{
+    background-color: #DDBF86;
+    width: 40vw;
+    height: auto;
+    border-radius: 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.chatMessage:nth-child(2n){
+    background-color: #554E4A;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.chatInput{
+    background-color: #EBEBEB;
+    border-radius: 22px;
+    height: 44px;
+}
+
+.btnLoginSubmit {
+    background: #709799;
+    border: 0;
+    border-radius: 12px;
+    color: white;
+    width: 100%;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-transform: unset;
+}
+
+.advisorBox{
+    min-width: 188px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 9px 6px rgba(0,0,0,0.15);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -75px;
+}
+
+.advisorBtn{
+    background-color: #709799;
+    color: white;
+    height: 39px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    align-content: center;
+    padding: 10px;
+}
+
+.askAboutOfferBox{
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.askAboutOfferBtnSend{
+    width: 100%;
+    background-color: #709799;
+    color: white;
+    height: 39px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    align-content: center;
+    padding: 10px;
+}
+
+.contactFormIconBlock{
+    background-color: #F1F1F1;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactFormIcon{
+    margin-left: 10px;
+}
+
+.contactFormAreaBlock{
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    width: calc(100% + 1px);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 17px;
+    padding: 10px;
+}
+
+.contactFormFieldBlock{
+    background-color: #F1F1F1;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: calc(100% - 15px);
+    height: 36px;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: 600;  
+}
+
+.askAboutOfferLabel{
+    font-size: 11px;
+    font-weight: 700;
+    color: #777777;
+}
+
+.btnSliderBack{
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.btnSliderNext{
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+.carouselImages{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.registerBlock{
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.btnSearchTopFilter{
+    background-color: #709799;
+    width: 47px;
+    height: 47px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIconArticle{
+    width: 76px;
+    height: 76px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 6px rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}

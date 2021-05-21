@@ -1,0 +1,38 @@
+[
+    {
+        "username": "Natalia Kowalska",
+        "isAvaible": "Dostępny teraz",
+        "content": [
+            {
+                "user": "Natalia Kowalska",
+                "time": "11:35",
+                "message": "Przykładowa treść wiadomości",
+                "attachment": "Załącznik"
+            },
+            {
+                "user": "Natalia Kowalska",
+                "time": "11:37",
+                "message": "To jest inna przykładowa treść wiadomości",
+                "attachment": "Załącznik"
+            },
+            {
+                "user": "Natalia Kowalska",
+                "time": "11:37",
+                "message": "To jest inna przykładowa treść wiadomości",
+                "attachment": "Załącznik"
+            },
+            {
+                "user": "Natalia Kowalska",
+                "time": "11:37",
+                "message": "To jest inna przykładowa treść wiadomości",
+                "attachment": "Załącznik"
+            },
+            {
+                "user": "Natalia Kowalska",
+                "time": "11:37",
+                "message": "To jest inna przykładowa treść wiadomości",
+                "attachment": "Załącznik"
+            }
+        ]
+    }
+]
